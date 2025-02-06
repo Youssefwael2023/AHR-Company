@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHR Facility Management</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#"><img src="img/AHR-LOGO-2024.png" class="width-50" alt="img"></a> -->
+
+            <img src="img/AHR-LOGO-2024.png" class="" style="width: 120px;" alt="">
+            <h2 class="fs-3 text-capitalize text-light" style="position: absolute;top: 70px;left: 100px;">Facility
+                Management</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto ms-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " aria-current="page" href="#">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Services</a>
+                    </li>
+
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                        </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Contact Us</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+         <!-- Dark Mode Toggle -->
+   
+    </nav>
+
+    <!-- main -->
+    <div class="main" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <div class="content">
+                        <h2 id="box-title" class="responsive-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, eius.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center text-lg-start">
+                    <div class="box text-center ms-5 ms-lg-0 ms-md-5" style="position: relative; left: -24px !important;">
+                        <div class="box-items">
+                            <h2 class="text-center" id="box-content">lorem</h2>
+                        </div>
+                        <div class="slider1" onclick="changeContent(-1)"><span>></span></div>
+                        <div class="slider2" onclick="changeContent(1)"><span><</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main -->
+
+
+    <!-- section2 -->
+    <!-- section2 -->
+    <div class="sec2 mt-5 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class=" mb-lg-5 col-lg-12 col-sm-12 pt-5 pb-5 text-center">
+                    <h5 class="text-center text-capitalize fs-1 fw-bold">What We Offer</h5>
+                    <h2 class="fs-4 pt-5">Providing solutions for construction,
+                        management, and restoration.</h2>
+
+                    <p class="pt-2">We are a long-established, independent building services and home improvements
+                        company. We have a wealth of experience working as main building contractors on all kinds of
+                        projects, big and small, from home maintenance and improvements to extensions, refurbishments
+                        and new builds.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- First Column -->
+                <div class="col-lg-12 col-sm-12 pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 text-center mb-5">
+                            <div class="box-content pt-5 pb-5" data-bs-toggle="modal" data-bs-target="#modal1">
+                                <i class="fa-solid fa-1 box-fa"></i>
+                                <h2>INTEGRATED FACILITY MANAGEMENT SERVICES (IFM)</h2>
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 text-center mb-5">
+                            <div class="box-content pt-5 pb-5" data-bs-toggle="modal" data-bs-target="#modal2">
+                                <i class="fa-solid fa-2 box-fa"></i>
+                                <h2>ENERGY MANAGEMENT SERVICES</h2>
+                                <a href="">Read More</a>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 text-center mb-5">
+                            <div class="box-content pt-5 pb-5" data-bs-toggle="modal" data-bs-target="#modal3">
+                                <i class="fa-solid fa-3 box-fa"></i>
+                                <h2>Renewable Energy services</h2>
+                                <a href="">Read More</a>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 text-center mb-5">
+                            <div class="box-content pt-5 pb-5" data-bs-toggle="modal" data-bs-target="#modal4">
+                                <i class="fa-solid fa-4 box-fa"></i>
+                                <h2>Mechanical Systems</h2>
+                                <a href="">Read More</a>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 text-center mb-5">
+                            <div class="box-content pt-5 pb-5" data-bs-toggle="modal" data-bs-target="#modal5">
+                                <i class="fa-solid fa-5 box-fa"></i>
+                                <h2>Electrical Systems</h2>
+                                <a href="">Read More</a>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 text-center mb-5">
+                            <div class="box-content pt-5 pb-5" data-bs-toggle="modal" data-bs-target="#modal6">
+                                <i class="fa-solid fa-6 box-fa"></i>
+                                <h2>Plumbing System</h2>
+                                <a href="">Read More</a>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 text-center mb-5">
+                            <div class="box-content pt-5 pb-5" data-bs-toggle="modal" data-bs-target="#modal7">
+                                <i class="fa-solid fa-7 box-fa"></i>
+                                <h2>Industrial Equipment</h2>
+                                <a href="">Read More</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second Column -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- section2 -->
+    <!-- Slider Section -->
+    <section class="slider-section" style="background-color: rgb(165, 177, 225);">
+        <div class="container">
+            <h2 class="text-center text-light fw-bolder fs-1"> Services Gallery</h2>
+            <div class="row pt-5">
+                <div class="col-12">
+                    <div class="slider-container position-relative pt-5">
+                        <!-- Slider Arrows -->
+                        <button class="slider-arrow left" onclick="slide(-1)">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-arrow right" onclick="slide(1)">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+
+                        <!-- Slider Images -->
+                        <div class="slider">
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/1.jpg" alt="Image 1" class="img-fluid w-100 h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/2.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/3.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/4.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/5.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/6.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/7.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/8.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/9.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/10.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/11.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/12.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/13.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <img src="img/14.jpg" alt="Image 2" class="img-fluid h-75">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content ">
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title " id="modal1Label" style="color: #3363b1;">Design review & strategic
+                        constancy</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Review of design targeting best life cycle of assets and lowest running costs</li>
+                        <li>Set up hard and soft services delivery strategy</li>
+                        <li>Budget optimization</li>
+                    </ul>
+                </div>
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;">Soft services</h5>
+
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Cleaning, landscape, pest control</li>
+                        <li>Waste management</li>
+                        <li>Security services</li>
+                    </ul>
+                </div>
+                <div class="modal-header  bg-body-secondary">
+                    <h5 class="modal-title" id="modal3Label" style="color: #3363b1;">Hard services</h5>
+
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>HVAC and refrigeration system O&M</li>
+                        <li>Electrical (LV maintenance & HV) system</li>
+                        <li>Plumbing and sanitary systems</li>
+                        <li>Building and fabric maintenance</li>
+                        <li>Elevators & conveying systems maintenance</li>
+                        <li>Light current systems maintenance</li>
+                        <li>Fire fighting & fire alarm systems maintenance</li>
+                    </ul>
+                </div>
+                <div class="modal-header  bg-body-secondary">
+                    <h5 class="modal-title" id="modal4Label" style="color: #3363b1;"> Helpdesk services
+                    </h5>
+
+                </div>
+                <div class="modal-bod5">
+                    <ul class="fs-5">
+                        <li>Call center 24/7</li>
+                        <li>Identification of clients’ priorities, contractual requirements & SLA</li>
+                        <li>Customer management</li>
+                    </ul>
+                </div>
+                <div class="modal-header  bg-body-secondary">
+                    <h5 class="modal-title" id="modal5Label" style="color: #3363b1;"> Commissioning & start up
+                    </h5>
+
+                </div>
+                <div class="modal-bod5">
+                    <ul class="fs-5">
+                        <li>Active participation on the commissioning of the sites</li>
+                        <li>Management of snag lists and interface with contractors</li>
+                        <li>Satisfaction SAT witness</li>
+                        <li>New Systems commission & handover</li>
+                    </ul>
+                </div>
+                <div class="modal-header  bg-body-secondary">
+                    <h5 class="modal-title" id="modal6Label" style="color: #3363b1;">Asset Management</h5>
+
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Capture and integration of assets to asset management system</li>
+                        <li>Set up PM plan according to international standards</li>
+                        <li>Condition surveying regularly</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;"> Energy auditing and Energy
+                        Efficiency services</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Bill validation</li>
+                        <li>Operation improvement solutions</li>
+                        <li>Energy audits</li>
+                        <li>Energy conservation measures</li>
+                        <li>Energy saving supervision and management</li>
+                    </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;"> Solar Energy systems
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Engineering, Procurement and Construction (EPC) turn key projects for solar systems</li>
+                        <li>Operation and maintenance of solar power plants</li>
+                        <li>Supply & Install solar heating systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4 -->
+    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;"> HVAC Systems
+
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Engineering, Procurement and Construction (EPC) turn key projects for HVAC systems</li>
+                        <li>Operation and maintenance</li>
+                        <li>Spare parts supply</li>
+                        <li>Air quality audits</li>
+                        <li>Identification and implementation of air treatment solutions</li>
+                    </ul>
+                </div>
+
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;"> Conveying Systems
+
+
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Operation and maintenance</li>
+                        <li>Supply & Install Spare parts</li>
+                        <li>Vendor management</li>
+                    </ul>
+                </div>
+
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;"> Fire Fighting/Alarm systems
+
+
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li> Engineering,
+                            Procurement
+                            and
+                            construction (EPC) turn key projects for
+                            F.F systems</li>
+                        <li>Operation and maintenance</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;"> MV/LV Electrical systems
+
+
+
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Engineering, Procurement and construction (EPC) turn key projects for all electrical
+                            systems</li>
+                        <li>Operation and maintenance</li>
+                        <li>Spare parts supply</li>
+                        <li>MRU/Transformers maintenance</li>
+                        <li>Lighting systems</li>
+                        <li>Distribution panels</li>
+                        <li>UPS maintenance</li>
+                    </ul>
+                </div>
+
+                <!-- //////////////// -->
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;"> Stand-By Generators
+
+
+
+
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Operation & maintenance</li>
+                        <li>Spare parts supply</li>
+                        <li>Troubleshooting & technical support 24/7</li>
+                    </ul>
+                </div>
+
+                <!-- //////////////// -->
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;"> Lighting System
+
+
+
+
+
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Operation & maintenance</li>
+                        <li>Spare parts supply</li>
+                    </ul>
+                </div>
+                <!-- //////////////// -->
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;"> Lighting current system
+
+
+
+
+
+
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <p> (Fire alarm systems– Security systems
+                        Public address systems– Queuing
+                        systems…etc)</p>
+                    <ul class="fs-5">
+                        <li>Operation & maintenance</li>
+                        <li>Spare parts supply</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;"> Water networks &
+                        sewage systems
+
+
+
+
+
+
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Operation & maintenance for water RO plant</li>
+                        <li>Operation & maintenance for sewage plant</li>
+                        <li>Spareparts procurement</li>
+                        <li>Maintenance & inspection for water networks</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 7 -->
+    <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modal7Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-body-secondary">
+                    <h5 class="modal-title" id="modal2Label" style="color: #3363b1;"> Supply/Renting equipment's
+
+
+
+
+
+
+
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <ul class="fs-5">
+                        <li>Supply & install all industrial equipment: Air compressors, Diesel generators, pumps,
+                            Boilers</li>
+                        <li>Renting equipment</li>
+                        <li>Operation & maintenance</li>
+                        <li>Spareparts supply</li>
+                        <li>Troubleshooting & technical support 24/7</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Dependencies -->
+
+    <div class="comp mt-5 pt-5 pb-5 text-center text-lg-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 ">
+                    <h2 class="text-center mb-5">Our Core Values</h2>
+                    <ul class="text-center list-unstyled">
+                        <li class="mb-2">Operational Excellence: Striving for superior quality and efficiency.</li>
+                        <li class="mb-2">Sustainability: Implementing eco-friendly and energy-efficient solutions.</li>
+                        <li class="mb-2">Client-Centricity: Personalized services exceeding expectations.</li>
+                        <li class="mb-2">Innovation: Leveraging IoT, AI, and data-driven insights.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="img2" style="width:80%; height: 50%;margin: auto;">
+                        <img src="img/IMG-20250205-WA0015.jpg" class="w-100" alt="">
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="last pt-5 pb-5 text-sm-center">
+        <div class="container pt-5 pb-5">
+            <div class="main-title">
+
+
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <img src="img/AHR-LOGO-2024.png" class="img-fluid w-25" alt="">
+                        <h2 class="fs-1"> AHR</h2>
+                        <!-- <p>"Practical Learning for Professionals, Career Growth for Life"t -->
+
+                        </p>
+                        <div class="icon-div pt-3">
+
+                            <a href="mailto:info@ahrfm.com" class="text-decoration-none text-light">
+                                <i class="fa-solid fa-envelope fa-lg email rounded-circle p-2"></i>
+                            </a>
+                            <!-- <a href="https://t.me/+AHnTV5xoMOExZjlk" class="text-decoration-none text-light ">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a> -->
+                            <a href="https://www.linkedin.com/company/ahr-facility-management
+                   " class="text-decoration-none text-light">
+                                <i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i>
+
+                            </a>
+                            <a href="https://instagram.com/ahrfm" class="text-decoration-none text-light">
+                                <i class="fa-brands fa-instagram fa-lg instagram rounded-circle p-2"></i>
+
+                            </a>
+                            <h3 class="text-center pt-3"> Email
+                                : info@ahr-eg.com <br><br>
+
+                                Phone :+2 011 400 17001 <br><br>
+
+                                Address : Southern Lotus, area 8, New Cairo, Egyp</h3> <br>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-lg-12  ">
+                        <div class="last-a">
+
+                            <a href="" class="text-decoration-none d-block  fs-6  ms-3 "
+                                style=" position: relative; top: 20px;  color: white ; font-size: 25px !important;">
+                            </a>
+                            <a href="" class="text-decoration-none d-block  fs-6  ms-3 "
+                                style=" position: relative; top: 20px;  color: white ; font-size: 25px !important;">
+                            </a>
+                            <a href="" class="text-decoration-none d-block  fs-6  ms-3 "
+                                style=" position: relative; top: 20px;  color: white ; font-size: 25px !important;">
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+                <div class="row ">
+
+                    <div class="col-lg-12 col-sm-12  text-center">
+                        <p>&copy; 2024 AHR Facility Management. All Rights Reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+      <!-- Loading Spinner -->
+   
+
+     <!-- Bootstrap JS -->
+     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+     <!-- GSAP for Animations -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+     <!-- Custom JS -->
+     <script src="js/script.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/all.min.js"></script>
+</body>
+
+
+</script>
+
+
+</html>
